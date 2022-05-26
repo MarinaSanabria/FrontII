@@ -1,0 +1,21 @@
+.footer__container{
+    background-color: #F0572D;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__img__container{
+    margin: 1rem;
+}
+
+.footer__img{
+    padding: .6rem;
+}
+
+.footer__txt{
+    margin: 1rem;
+    color: #fff;
+}

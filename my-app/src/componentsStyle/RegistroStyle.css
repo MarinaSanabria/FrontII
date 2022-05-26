@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.main__container{
+    background-color: #DFE4EA  ;
+    height: 81.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__ttl{
+    font-size:  1.7rem;
+    color: #F0572D;
+}
+
+.form__label{
+    display: flex;
+    padding: .2rem 0rem;
+    justify-content: flex-start;
+}
+
+.form__input{
+    margin: .2rem 0rem 1rem 0rem;
+    height: 4.2vh;
+    width: 28vw;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 0px 0px 5px 2px rgb(151, 151, 151);
+    padding-left: .5rem;
+
+}
+
+.form__input-nombreapellido{
+    width: 13.2vw;
+}
+
+.form__input-nombreapellido-derecha{
+    margin-left: 1.3rem
+}
+
+
+.form__input-pass{
+    background-image: url(../img/eye.png);
+    background-size: 3vh;
+    background-position: 54vh;
+    background-repeat: no-repeat;
+    
+}
+
+.form__nombreapellido{
+    display: flex;
+}
+
+.form__input:focus{
+    outline-color: #F0572D;
+    padding-left: .5rem;
+    color: #F0572D;
+}
+
+.form__btn__container{
+    display: flex;
+    justify-content: center;
+}
+
+.form__btn{
+    background-color: #F0572D;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem 0;
+    width: 12vw;
+    height: 4.5vh;
+    border-radius: .5rem;
+}
+
+.form__txtextra{
+    display: flex;
+    align-items: center;
+}
+
+.form__txtextra__anchor{
+    font-weight: 600;
+    color: rgb(16, 169, 240);
+    margin-left: .5rem;
+    text-decoration: none;
+}

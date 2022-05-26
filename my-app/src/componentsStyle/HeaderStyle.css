@@ -1,0 +1,100 @@
+
+.header{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    border-bottom: 1px solid rgb(126, 126, 126);
+
+    background: #FFFFFF;
+    
+}
+
+.header__img__container{
+    display: flex;
+    align-items:flex-end;
+    height: 3rem;
+    margin:1rem;
+    
+}
+
+.header__derechaContainer{
+    margin-right: 1rem;
+}
+
+.boton{
+    margin: 3px;
+    border: 2px solid rgb(255, 108, 23);
+    padding: 1rem;
+    border-radius: .6rem;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    background: #FFFFFF;
+    margin-left: 1rem;
+    
+}
+
+
+.boton:hover{
+    background-color: rgb(255, 108, 23);
+    color: aliceblue;
+
+}
+
+.boton_text{
+    padding: 1rem;
+
+}
+
+.logo{
+    float: left;
+    font-size:1em;
+    
+    
+    display: block;
+    margin-right:1rem;
+}
+
+
+.atras{
+    margin: 1rem;
+    border: 2px solid rgb(255, 108, 23);
+    padding: 1rem;
+    border-radius: .6rem;
+    height: 2rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    background: #FFFFFF;
+}
+
+.usuario_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.usuario_circle{
+    align-items: center;
+    width: 2rem; height: 2rem; line-height: 2rem; border-radius: 50%; font-size: 1rem; 
+    color: #fff; text-align: center; background: #31363F;
+    margin:0.5rem
+}
+
+.usuario_p2{
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
